@@ -19,7 +19,7 @@ class AppCubit extends Cubit<AppStates>{
         path: "current",
         query: {
           "access_key":"58bfe10f56b91e08bb52ce08a07a97aa",
-          "query":"Jerusalem"
+          "query":"Rafah"
         }
     ).then((value){
       jerusalemWeatherMap=value.data["current"];
